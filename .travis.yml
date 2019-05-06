@@ -4,7 +4,7 @@ node_js:
 before_script:
 - npm install -g grunt-cli
 after_script:
-  - npm run build -- retire
+  - grunt retire
 deploy:
   provider: heroku
   api-key:
