@@ -1,3 +1,4 @@
+/*jslint node: true */
 const sass = require('node-sass');
 
 module.exports = grunt => {

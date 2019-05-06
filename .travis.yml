@@ -5,3 +5,8 @@ before_script:
 - npm install -g grunt-cli
 after_script:
   - npm run build -- retire
+deploy:
+  provider: heroku
+  api-key:
+    secure: $HEROKU_API_KEY
+  app: workshopdevops
